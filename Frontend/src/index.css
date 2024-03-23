@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:"GT-Super" ;
+    src: url("./assets/Fonts/GT-Super/GT-Super-Display-Regular-Trial.otf");
+}
+
+/* @layer responsive-grid{
+    @apply repeat, (auto-fit, minmax(150px, 1fr))
+} */
