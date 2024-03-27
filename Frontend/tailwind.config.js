@@ -31,7 +31,8 @@ export default {
       },
       colors: {
         "header-bg": "#FFC017",
-        "heroBg": "#34AA45"
+        "heroBg": "#34AA45",
+        "footBg" : " #242424"
       },
 
       backgroundImage: {

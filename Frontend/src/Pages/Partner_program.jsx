@@ -108,6 +108,177 @@ const Partner_program = () => {
           </div>
         </div>
       </div>
+
+      <div className="last-section-footer-1 py-10 px-6 cursor-pointer hover:bg-footBg hover:text-white transition duration-350 ease-in-out border-b border-white">
+        <div className="wrapper flex items-center justify-between ">
+          <p className="font-serif text-5xl font-normal md:text-6xl">
+            Apply now
+          </p>
+          <div>
+            <span className="font-serif text-5xl font-normal md:text-8xl">
+              →
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* FOOTER SECTION 2 */}
+      <div className="last-section-footer-1 py-10 px-6  bg-footBg text-white">
+        <div className="wrapper font-sans FAQ">
+          <p className="font-serif text-5xl font-normal md:text-6xl">FAQ</p>
+
+          <div className="accordion-container mt-7 FAQ-1 border-b border-white pb-10">
+            <div className="flex items-center justify-between">
+              <p>What are the new changes for the Partner Program?</p>
+
+              <div className="open-close">
+                <div className="close-accord">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m4.5 15.75 7.5-7.5 7.5 7.5"
+                    />
+                  </svg>
+                </div>
+                <div className="open-accord">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div className=" font-sans text-sm md:w-1/2">
+              <p>
+                We’ve updated the Partner Program to incentivize high-quality
+                human writing. Here’s a quick summary: we’ve opened up the
+                Partner Program to more locations, removed the 100 follower
+                requirement, and require Medium membership to join. Earnings
+                will be higher for stories that have repeat readers, have been
+                Boosted, and that have a high read ratio. All stories will also
+                earn more based on engagement signals like claps, highlights,
+                and replies. Referral bonuses are being deprecated and new story
+                stats will be added in so writers can better understand their
+                story earnings breakdown.
+              </p>
+
+              <p className="underline mt-6 cursor-pointer">
+                Read more about all of the changes and our vision for the
+                Partner Program.
+              </p>
+            </div>
+          </div>
+
+          <div className="accordion-container mt-7 FAQ-2 border-b border-white pb-10">
+            <div className="flex items-center justify-between">
+              <p>
+                What are the eligibility requirements to join the Partner
+                Program?
+              </p>
+
+              <div className="open-close">
+                <div className="close-accord">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m4.5 15.75 7.5-7.5 7.5 7.5"
+                    />
+                  </svg>
+                </div>
+                <div className="open-accord">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div className=" font-sans text-sm md:w-1/2">
+              <p>
+                To join the Partner Program, you will need to meet the following
+                eligibility requirements:
+              </p>
+
+              <ol className="ml-5 list-decimal">
+                <li>Be a Medium member</li>
+                <li>
+                  Have published at least one story on Medium in the past 6
+                  months{" "}
+                </li>
+                <li>Are located in a supported country</li>
+                <li>Are 18 years of age or older</li>
+              </ol>
+
+              <p className="underline mt-6 cursor-pointer">
+                Check out the eligibility requirements and details about the
+                Partner Program.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className=" border-t border-black">
+        <nav className="h-[10vh] px-2 flex flex-col gap-2 items-center justify-center md:container mx-auto md:flex-row md:justify-between">
+          <div className="logo">
+            <NavLink to="/">
+              <img
+                src={logo}
+                alt=""
+                srcset=""
+                className="w-[150px] cursor-pointer"
+              />
+            </NavLink>
+          </div>
+
+          <ul className="flex gap-5 text-xs underline">
+            <li className=" cursor-pointer">About </li>
+            <li className=" cursor-pointer">Terms </li>
+            <li className=" cursor-pointer">Privacy </li>
+            <li className=" cursor-pointer">Help </li>
+            <li className=" cursor-pointer">Teams</li>
+            <li className=" cursor-pointer">Press</li>
+          </ul>
+        </nav>
+      </div>
     </>
   );
 };

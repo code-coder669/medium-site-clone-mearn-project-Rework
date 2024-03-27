@@ -31,6 +31,7 @@ const Router = () => {
           <Route path="/form-signin" element={<FormSignIn />} />
           <Route path="/singlestory" element={<SingleStory />} />
           <Route path="/partner-program" element={<Partner_program />} />
+          <Route path="/:singlestory" element={<SingleStory />} />
       </Routes>
     </BrowserRouter>
   );
